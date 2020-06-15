@@ -95,9 +95,7 @@ this.props.del()
     //     }
     
     render() {
-        console.log("emailllllllllllll",auth.currentUser.email===this.props.id||auth.currentUser.email==="targaryengg15@gmail.com"||auth.currentUser.email===this.props.em)
-        console.log("heyyoooooooooooooooooooooooooooooooooooooooooooooooooooooo")
-       
+     
         return (
             <View style={styles.singlePostContainer}>
                
